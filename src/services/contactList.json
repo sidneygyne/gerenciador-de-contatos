@@ -1,0 +1,402 @@
+[
+  {
+    "id": "1",
+    "photo": "https://i.pravatar.cc/150?img=3",
+    "name": "Elaine Ribeiro",
+    "phone": "11969894013",
+    "email": "elaine.ribeiro@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "2",
+    "photo": "https://i.pravatar.cc/150?img=9",
+    "name": "Sabrina Martins",
+    "phone": "61970955106",
+    "email": "sabrina.martins@exemplo.com",
+    "category": "outros"
+  },
+  {
+    "id": "3",
+    "photo": "https://i.pravatar.cc/150?img=10",
+    "name": "Igor Fernandes",
+    "phone": "51971626576",
+    "email": "igor.fernandes@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "4",
+    "photo": "https://i.pravatar.cc/150?img=5",
+    "name": "Luciano Santos",
+    "phone": "21993200541",
+    "email": "luciano.santos@exemplo.com",
+    "category": "vizinho"
+  },
+  {
+    "id": "5",
+    "photo": "https://i.pravatar.cc/150?img=2",
+    "name": "Juliana Moura",
+    "phone": "31995410031",
+    "email": "juliana.moura@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "6",
+    "photo": "https://i.pravatar.cc/150?img=7",
+    "name": "André Ribeiro",
+    "phone": "51997286162",
+    "email": "andre.ribeiro@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "7",
+    "photo": "https://i.pravatar.cc/150?img=6",
+    "name": "Kleber Rocha",
+    "phone": "61992318978",
+    "email": "kleber.rocha@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "8",
+    "photo": "https://i.pravatar.cc/150?img=9",
+    "name": "Patrícia Lima",
+    "phone": "41996430041",
+    "email": "patricia.lima@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "9",
+    "photo": "https://i.pravatar.cc/150?img=4",
+    "name": "Diogo Ribeiro",
+    "phone": "31997680574",
+    "email": "diogo.ribeiro@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "10",
+    "photo": "https://i.pravatar.cc/150?img=10",
+    "name": "Fernanda Gomes",
+    "phone": "61992715280",
+    "email": "fernanda.gomes@exemplo.com",
+    "category": "outros"
+  },
+  {
+    "id": "11",
+    "photo": "https://i.pravatar.cc/150?img=8",
+    "name": "Marcelo Fernandes",
+    "phone": "41999526390",
+    "email": "marcelo.fernandes@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "12",
+    "photo": "https://i.pravatar.cc/150?img=3",
+    "name": "Yasmin Souza",
+    "phone": "71990970231",
+    "email": "yasmin.souza@exemplo.com",
+    "category": "vizinho"
+  },
+  {
+    "id": "13",
+    "photo": "https://i.pravatar.cc/150?img=1",
+    "name": "Gabriel Costa",
+    "phone": "31995039183",
+    "email": "gabriel.costa@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "14",
+    "photo": "https://i.pravatar.cc/150?img=4",
+    "name": "Vanessa Santos",
+    "phone": "21996952103",
+    "email": "vanessa.santos@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "15",
+    "photo": "https://i.pravatar.cc/150?img=7",
+    "name": "Beatriz Rocha",
+    "phone": "61992206514",
+    "email": "beatriz.rocha@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "16",
+    "photo": "https://i.pravatar.cc/150?img=5",
+    "name": "William Almeida",
+    "phone": "31999374086",
+    "email": "william.almeida@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "17",
+    "photo": "https://i.pravatar.cc/150?img=6",
+    "name": "Helena Martins",
+    "phone": "51995477100",
+    "email": "helena.martins@exemplo.com",
+    "category": "vizinho"
+  },
+  {
+    "id": "18",
+    "photo": "https://i.pravatar.cc/150?img=1",
+    "name": "Elaine Lima",
+    "phone": "61996457032",
+    "email": "elaine.lima@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "19",
+    "photo": "https://i.pravatar.cc/150?img=2",
+    "name": "Carlos Fernandes",
+    "phone": "51994780731",
+    "email": "carlos.fernandes@exemplo.com",
+    "category": "outros"
+  },
+  {
+    "id": "20",
+    "photo": "https://i.pravatar.cc/150?img=9",
+    "name": "Rafaela Moura",
+    "phone": "21990580154",
+    "email": "rafaela.moura@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "21",
+    "photo": "https://i.pravatar.cc/150?img=5",
+    "name": "Otávio Gomes",
+    "phone": "31999443894",
+    "email": "otavio.gomes@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "22",
+    "photo": "https://i.pravatar.cc/150?img=3",
+    "name": "Natália Santos",
+    "phone": "51990586279",
+    "email": "natalia.santos@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "23",
+    "photo": "https://i.pravatar.cc/150?img=8",
+    "name": "Renato Carvalho",
+    "phone": "71990192693",
+    "email": "renato.carvalho@exemplo.com",
+    "category": "vizinho"
+  },
+  {
+    "id": "24",
+    "photo": "https://i.pravatar.cc/150?img=7",
+    "name": "Ana Rocha",
+    "phone": "31995076914",
+    "email": "ana.rocha@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "25",
+    "photo": "https://i.pravatar.cc/150?img=10",
+    "name": "Thiago Ribeiro",
+    "phone": "61990293037",
+    "email": "thiago.ribeiro@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "26",
+    "photo": "https://i.pravatar.cc/150?img=11",
+    "name": "Camila Silva",
+    "phone": "31991010101",
+    "email": "camila.silva@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "27",
+    "photo": "https://i.pravatar.cc/150?img=12",
+    "name": "Felipe Rocha",
+    "phone": "61991212121",
+    "email": "felipe.rocha@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "28",
+    "photo": "https://i.pravatar.cc/150?img=13",
+    "name": "Larissa Gomes",
+    "phone": "41991313131",
+    "email": "larissa.gomes@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "29",
+    "photo": "https://i.pravatar.cc/150?img=14",
+    "name": "Bruno Lima",
+    "phone": "11990011223",
+    "email": "bruno.lima@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "30",
+    "photo": "https://i.pravatar.cc/150?img=15",
+    "name": "Camila Rocha",
+    "phone": "21990123456",
+    "email": "camila.rocha@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "31",
+    "photo": "https://i.pravatar.cc/150?img=16",
+    "name": "Daniel Costa",
+    "phone": "31990234567",
+    "email": "daniel.costa@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "32",
+    "photo": "https://i.pravatar.cc/150?img=17",
+    "name": "Eduarda Souza",
+    "phone": "41990345678",
+    "email": "eduarda.souza@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "33",
+    "photo": "https://i.pravatar.cc/150?img=18",
+    "name": "Fábio Martins",
+    "phone": "51990456789",
+    "email": "fabio.martins@exemplo.com",
+    "category": "outros"
+  },
+  {
+    "id": "34",
+    "photo": "https://i.pravatar.cc/150?img=19",
+    "name": "Gabriela Ferreira",
+    "phone": "61990567890",
+    "email": "gabriela.ferreira@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "35",
+    "photo": "https://i.pravatar.cc/150?img=20",
+    "name": "Hugo Ribeiro",
+    "phone": "11990678901",
+    "email": "hugo.ribeiro@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "36",
+    "photo": "https://i.pravatar.cc/150?img=21",
+    "name": "Isabela Lima",
+    "phone": "21990789012",
+    "email": "isabela.lima@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "37",
+    "photo": "https://i.pravatar.cc/150?img=22",
+    "name": "João Fernandes",
+    "phone": "31990890123",
+    "email": "joao.fernandes@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "38",
+    "photo": "https://i.pravatar.cc/150?img=23",
+    "name": "Juliana Costa",
+    "phone": "41990901234",
+    "email": "juliana.costa@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "39",
+    "photo": "https://i.pravatar.cc/150?img=24",
+    "name": "Leonardo Santos",
+    "phone": "51991012345",
+    "email": "leonardo.santos@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "40",
+    "photo": "https://i.pravatar.cc/150?img=25",
+    "name": "Larissa Pereira",
+    "phone": "61991123456",
+    "email": "larissa.pereira@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "41",
+    "photo": "https://i.pravatar.cc/150?img=26",
+    "name": "Marcelo Lima",
+    "phone": "11991234567",
+    "email": "marcelo.lima@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "42",
+    "photo": "https://i.pravatar.cc/150?img=27",
+    "name": "Mariana Rocha",
+    "phone": "21991345678",
+    "email": "mariana.rocha@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "43",
+    "photo": "https://i.pravatar.cc/150?img=28",
+    "name": "Nathan Martins",
+    "phone": "31991456789",
+    "email": "nathan.martins@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "44",
+    "photo": "https://i.pravatar.cc/150?img=29",
+    "name": "Patrícia Gomes",
+    "phone": "41991567890",
+    "email": "patricia.gomes@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "45",
+    "photo": "https://i.pravatar.cc/150?img=30",
+    "name": "Rafael Souza",
+    "phone": "51991678901",
+    "email": "rafael.souza@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "46",
+    "photo": "https://i.pravatar.cc/150?img=31",
+    "name": "Renata Lima",
+    "phone": "61991789012",
+    "email": "renata.lima@exemplo.com",
+    "category": "amigo"
+  },
+  {
+    "id": "47",
+    "photo": "https://i.pravatar.cc/150?img=32",
+    "name": "Ricardo Fernandes",
+    "phone": "11991890123",
+    "email": "ricardo.fernandes@exemplo.com",
+    "category": "trabalho"
+  },
+  {
+    "id": "48",
+    "photo": "https://i.pravatar.cc/150?img=33",
+    "name": "Roberta Costa",
+    "phone": "21991901234",
+    "email": "roberta.costa@exemplo.com",
+    "category": "família"
+  },
+  {
+    "id": "49",
+    "photo": "https://i.pravatar.cc/150?img=34",
+    "name": "Samuel Pereira",
+    "phone": "31992012345",
+    "email": "samuel.pereira@exemplo.com",
+    "category": "conhecido"
+  },
+  {
+    "id": "50",
+    "photo": "https://i.pravatar.cc/150?img=35",
+    "name": "Tatiana Rocha",
+    "phone": "41992123456",
+    "email": "tatiana.rocha@exemplo.com",
+    "category": "trabalho"
+  }
+]
