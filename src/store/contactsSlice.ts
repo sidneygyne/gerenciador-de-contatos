@@ -4,10 +4,12 @@ import { getContacts } from '../services/contactService'
 
 type ContactsState = {
   list: Contact[]
+  searchTerm: string
 }
 
 const initialState: ContactsState = {
-  list: getContacts()
+  list: getContacts(),
+  searchTerm: ''
 }
 
 const contactsSlice = createSlice({
@@ -23,9 +25,12 @@ const contactsSlice = createSlice({
     },
     removeContact: (state, action: PayloadAction<string>) => {
       state.list = state.list.filter((c) => c.id !== action.payload)
+    },
+    setSearchTerm: (state, action: PayloadAction<string>) => {
+      state.searchTerm = action.payload
     }
   }
 })
 
-export const { addContact, editContact, removeContact } = contactsSlice.actions
+export const { addContact, editContact, removeContact, setSearchTerm } = contactsSlice.actions
 export default contactsSlice.reducer

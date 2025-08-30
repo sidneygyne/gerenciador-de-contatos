@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { addContact, editContact } from '../../store/contactsSlice'
 import { v4 as uuidv4 } from 'uuid'
-import { Form, Input, Button, Select } from './styles'
+import { Form, Input, Button, Select, CloseButton } from './styles'
 import { Contact } from '../../models/Contact'
 
 type Props = {
@@ -67,6 +67,7 @@ const ContactForm: React.FC<Props> = ({ contactToEdit, onFinish }) => {
 
   return (
     <Form onSubmit={handleSubmit}>
+      <CloseButton onClick={onFinish}>x</CloseButton>
       <Input
         type="text"
         placeholder="Nome completo"

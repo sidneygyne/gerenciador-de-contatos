@@ -8,10 +8,19 @@ export const Form = styled.form`
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px 20px 20px;
   background-color: ${colors.fifthColor};
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+`
+
+export const CloseButton = styled.button`
+  font-size: 25px;
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 95%;
+  background-color: ${colors.fifthColor};
 `
 
 export const Input = styled.input`
