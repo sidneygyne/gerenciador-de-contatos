@@ -14,9 +14,9 @@ const ContactList: React.FC<ContactListProps> = ({ onEditContact }) => {
   const { list, searchTerm } = useSelector((state: RootState) => state.contacts)
   const dispatch = useDispatch()
 
-  const filteredContacts = list.filter((c: Contact) =>
-    c.name.toLowerCase().includes(searchTerm.toLowerCase())
-  )
+  const filteredContacts = list
+    .filter((c: Contact) => c.name.toLowerCase().includes(searchTerm.toLowerCase()))
+    .sort((a, b) => a.name.localeCompare(b.name))
 
   // Estado para armazenar o contato que será editado
   const [contactToEdit, setContactToEdit] = useState<Contact | null>(null)

@@ -46,18 +46,3 @@ export const Select = styled.select`
     outline: none;
   }
 `
-
-export const Button = styled.button`
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: ${colors.fourthColor};
-  color: ${colors.secondColor};
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  &:hover {
-    background-color: ${colors.thirdColor};
-  }
-`
