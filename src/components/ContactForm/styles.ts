@@ -18,6 +18,7 @@ export const Input = styled.input`
   padding: 10px 15px;
   border: 1px solid ${colors.thirdColor};
   border-radius: 5px;
+  background-color: ${colors.fifthColor};
   font-size: 16px;
   &:focus {
     border-color: ${colors.thirdColor};
