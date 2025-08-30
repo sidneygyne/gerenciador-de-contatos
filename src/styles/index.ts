@@ -3,7 +3,8 @@ import colors from './colors'
 
 export const breakpoints = {
   desktop: '1024px',
-  tablet: '768px'
+  tablet: '768px',
+  cellPhone: '480px'
 }
 
 export const GlobalStyle = createGlobalStyle`

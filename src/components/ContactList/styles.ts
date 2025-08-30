@@ -55,6 +55,12 @@ export const Info = styled.div`
     font-size: 14px;
     color: #555;
   }
+
+  .email {
+    @media (max-width: ${breakpoints.cellPhone}) {
+      font-size: 11px;
+    }
+  }
 `
 
 export const Category = styled.span`
@@ -67,6 +73,11 @@ export const Category = styled.span`
 export const Buttons = styled.div`
   display: flex;
   gap: 15px;
+
+  @media (max-width: ${breakpoints.cellPhone}) {
+    display: flex;
+    flex-direction: column;
+  }
 
   button {
     background: ${colors.thirdColor};

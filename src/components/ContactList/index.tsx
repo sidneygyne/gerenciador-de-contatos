@@ -41,7 +41,7 @@ const ContactList: React.FC<ContactListProps> = ({ onEditContact, selectedCatego
             <Photo src={contact.photo || 'https://via.placeholder.com/50'} alt={contact.name} />
             <Info>
               <strong>{contact.name}</strong>
-              <span>{contact.email}</span>
+              <span className="email">{contact.email}</span>
               <span>{contact.phone}</span>
               {contact.category && <Category>{contact.category}</Category>}
             </Info>

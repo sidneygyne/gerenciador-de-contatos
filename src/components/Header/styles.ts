@@ -55,8 +55,8 @@ export const SearchInput = styled.input`
     width: 220px;
   }
 
-  @media (max-width: 480px) {
-    width: 100%; // ocupa largura total no mobile
+  @media (max-width: ${breakpoints.cellPhone}) {
+    width: 100%;
     font-size: 14px;
   }
 `
