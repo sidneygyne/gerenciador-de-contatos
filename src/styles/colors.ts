@@ -1,7 +1,7 @@
 export default {
-  firstColor: '#38A3A5',
-  secondColor: '#22577A',
-  thirdColor: '#57CC99',
-  fourthColor: '#80ED99',
-  fifthColor: '#C7F9CC'
+  firstColor: '#2F4550',
+  secondColor: '#000000',
+  thirdColor: '#586F7C',
+  fourthColor: '#B8DBD9',
+  fifthColor: '#F4F4F9'
 }
