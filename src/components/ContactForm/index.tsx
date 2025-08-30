@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { Form, Input, Select, CloseButton } from './styles'
 import { Contact } from '../../models/Contact'
 import { Button } from '../Button'
+import { categories } from '../../utils/categories' // <- import das categorias
 
 type Props = {
   contactToEdit?: Contact | null
@@ -98,12 +99,13 @@ const ContactForm: React.FC<Props> = ({ contactToEdit, onFinish }) => {
       />
       <Select value={category} onChange={(e) => setCategory(e.target.value)}>
         <option value="">Selecione a categoria</option>
-        <option value="amigo">Amigo</option>
-        <option value="família">Família</option>
-        <option value="trabalho">Trabalho</option>
-        <option value="conhecido">Conhecido</option>
-        <option value="vizinho">Vizinho</option>
-        <option value="outros">Outros</option>
+        {categories
+          .filter((cat) => cat.value !== 'all')
+          .map((cat: { value: string; label: string }) => (
+            <option key={cat.value} value={cat.value}>
+              {cat.label}
+            </option>
+          ))}
       </Select>
       <Button type="submit">{contactToEdit ? 'Salvar Alterações' : 'Adicionar Contato'}</Button>
     </Form>

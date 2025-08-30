@@ -1,15 +1,20 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { Contact } from '../models/Contact'
 import { getContacts } from '../services/contactService'
+import { CategoryType } from '../utils/categories'
 
 type ContactsState = {
   list: Contact[]
   searchTerm: string
+  filterCategory: CategoryType | ''
+  contactToEdit: Contact | null
 }
 
 const initialState: ContactsState = {
   list: getContacts(),
-  searchTerm: ''
+  searchTerm: '',
+  filterCategory: '',
+  contactToEdit: null
 }
 
 const contactsSlice = createSlice({
@@ -28,9 +33,22 @@ const contactsSlice = createSlice({
     },
     setSearchTerm: (state, action: PayloadAction<string>) => {
       state.searchTerm = action.payload
+    },
+    setFilterCategory: (state, action: PayloadAction<CategoryType | ''>) => {
+      state.filterCategory = action.payload
+    },
+    setContactToEdit: (state, action: PayloadAction<Contact | null>) => {
+      state.contactToEdit = action.payload
     }
   }
 })
 
-export const { addContact, editContact, removeContact, setSearchTerm } = contactsSlice.actions
+export const {
+  addContact,
+  editContact,
+  removeContact,
+  setSearchTerm,
+  setFilterCategory,
+  setContactToEdit
+} = contactsSlice.actions
 export default contactsSlice.reducer

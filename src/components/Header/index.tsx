@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { HeaderContainer, SearchInput } from './styles'
+import { HeaderContainer, HeaderLink, SearchInput } from './styles'
 import { RootState } from '../../store'
 import { setSearchTerm } from '../../store/contactsSlice'
 import { Button } from '../Button'
@@ -14,7 +15,7 @@ export const Header = ({ onAddContact }: HeaderProps) => {
 
   return (
     <HeaderContainer>
-      <h1>Lista de contatos</h1>
+      <HeaderLink to="/">Lista de contatos</HeaderLink>
       <SearchInput
         type="text"
         placeholder="Buscar contato..."

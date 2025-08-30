@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import colors from '../../styles/colors'
 
@@ -10,6 +11,15 @@ export const HeaderContainer = styled.header`
   margin: 20px 0 30px;
 `
 
+export const HeaderLink = styled(Link)`
+  font-size: 40px;
+  font-weight: 800;
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    color: inherit;
+  }
+`
 export const SearchInput = styled.input`
   padding: 8px 12px;
   border: 1px solid ${colors.secondColor};
