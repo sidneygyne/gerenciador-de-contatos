@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import colors from '../../styles/colors'
+import { breakpoints } from '../../styles'
 
 export const List = styled.ul`
   list-style: none;
@@ -9,6 +10,16 @@ export const List = styled.ul`
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    grid-template-columns: 1fr;
+    margin: 40px 100px 40px;
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    grid-template-columns: 1fr;
+    margin: 40px 25px 40px;
+  }
 `
 
 export const ListItem = styled.li`

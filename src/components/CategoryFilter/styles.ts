@@ -1,11 +1,16 @@
 import styled from 'styled-components'
 import colors from '../../styles/colors'
+import { breakpoints } from '../../styles'
 
 export const Container = styled.div`
   display: flex;
   gap: 8px; // espaço entre os botões
   margin-bottom: 16px;
   justify-content: space-evenly;
+
+  @media (max-width: ${breakpoints.tablet}) {
+    flex-wrap: wrap;
+  }
 `
 
 export const CategoryButton = styled.button<{ active?: boolean }>`
