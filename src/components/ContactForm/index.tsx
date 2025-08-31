@@ -69,7 +69,7 @@ const ContactForm: React.FC<Props> = ({ contactToEdit, onFinish }) => {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <CloseButton onClick={onFinish}>x</CloseButton>
+      {/* <CloseButton onClick={onFinish}>x</CloseButton> */}
       <Input
         type="text"
         placeholder="Nome completo"

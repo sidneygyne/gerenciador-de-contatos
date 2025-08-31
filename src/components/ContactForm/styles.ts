@@ -7,12 +7,11 @@ export const Form = styled.form`
   gap: 15px;
   width: 100%;
   max-width: 400px;
-  margin: 0 auto;
-  padding: 10px 20px 20px;
+  margin: 20px auto;
+  padding: 20px;
   background-color: ${colors.fifthColor};
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 25px;
 `
 
 export const CloseButton = styled.button`
