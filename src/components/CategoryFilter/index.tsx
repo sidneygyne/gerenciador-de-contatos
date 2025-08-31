@@ -8,10 +8,6 @@ type Props = {
 }
 
 export const CategoryFilter: React.FC<Props> = ({ selectedCategory, onChangeCategory }) => {
-  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    onChangeCategory(e.target.value)
-  }
-
   return (
     <Container>
       {categories.map((cat) => (

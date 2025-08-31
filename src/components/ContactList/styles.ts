@@ -53,7 +53,7 @@ export const Info = styled.div`
 
   span {
     font-size: 14px;
-    color: #555;
+    color: ${colors.firstColor};
   }
 
   .email {
@@ -83,7 +83,7 @@ export const Buttons = styled.div`
     background: ${colors.thirdColor};
     opacity: 0.8;
     border: none;
-    color: #fff;
+    color: ${colors.fifthColor};
     padding: 6px 10px;
     border-radius: 6px;
     cursor: pointer;

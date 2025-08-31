@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { addContact, editContact } from '../../store/contactsSlice'
 import { v4 as uuidv4 } from 'uuid'
-import { Form, Input, Select, CloseButton } from './styles'
+import { Form, Input, Select } from './styles'
 import { Contact } from '../../models/Contact'
 import { Button } from '../Button'
-import { categories } from '../../utils/categories' // <- import das categorias
+import { categories } from '../../utils/categories'
 
 type Props = {
   contactToEdit?: Contact | null
@@ -69,7 +69,6 @@ const ContactForm: React.FC<Props> = ({ contactToEdit, onFinish }) => {
 
   return (
     <Form onSubmit={handleSubmit}>
-      {/* <CloseButton onClick={onFinish}>x</CloseButton> */}
       <Input
         type="text"
         placeholder="Nome completo"
